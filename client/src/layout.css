@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  padding: 20px;
+  height: 100vh;
+}
+.logo {
+  color: #fff;
+  font-weight: bold;
+}
+
+.role {
+  color: #fff;
+  font-size: 14px;
+  margin-top: -20px;
+}
+.sidebar {
+  background-color: teal;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-right: 20px;
+  min-height: 100%;
+  padding: 10px;
+  /* width: 300px; */
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  cursor: pointer;
+}
+
+.header {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-bottom: 20px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  height: 82vh;
+  width: 100%;
+  padding: 15px;
+  overflow: scroll;
+}
+
+/* menu item list */
+.menu {
+  margin-top: 100px;
+  padding: 0 10px;
+}
+.menu-item {
+  margin-top: 30px;
+}
+.menu-item a {
+  color: rgba(255, 255, 255, 0.76);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.menu-item i {
+  color: rgba(255, 255, 255, 0.76);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.active-menu-item {
+  color: white;
+  background-color: rgba(8, 56, 56, 0.438);
+  padding: 5px;
+  border-radius: 5px;
+}
+/* end of menu item list */
+
+/* header section*/
+
+.header-action-icon {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+  padding-left: 10px;
+}
+/* end of header section*/
+
+.ant-scroll-number,
+.ant-badge-count {
+  margin: 0 20px;
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    padding: 0 5px;
+  }
+}

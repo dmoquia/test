@@ -1,0 +1,129 @@
+
+
+/* antd override */
+input{
+  border-radius: 2px 0!important;
+  border: 1px solid rgba(128, 128, 128, 0.61) !important;
+  height: 35px !important;
+}
+
+input:focus, .ant-picker{
+  outline: none!important;
+  box-shadow: none!important;
+  border: 1px solid gray !important
+}
+
+label{
+  font-size: 16px!important;
+  color: black!important;
+}
+
+.ant-form-item{
+  margin:10px 0!important;
+}
+
+
+.primary-button{
+  background-color: teal;
+  border-color: teal;
+  height: 40px;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: max-content;
+}
+.full-width-button{
+  width: 100%;
+}
+
+.ant-picker-input input {
+border: none !important;
+}
+.ant-picker{
+  border-radius: 2px 0!important;
+  border: 1px solid rgba(128, 128, 128, 0.61) !important;
+  height: 35px !important;
+}
+/* common styling  */
+
+.spinner-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.329);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+}
+
+.spinner-border{
+  width: 5rem;
+  height: 5rem;
+  color: white;
+}
+.page-title{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.705);
+  text-transform: capitalize;
+  font-weight: bold;
+  
+}
+.card-title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.616);
+  text-transform: capitalize;
+ margin-bottom: 0;
+}
+p{
+  color: rgba(34, 34, 34, 0.747);
+  margin:0;
+  padding-top:0 ;
+}
+
+.normal-text{
+  font-size: 1rem;
+  color: rgba(34, 34, 34, 0.781);
+}
+.card{
+  box-shadow: 0 0 2px gray;
+  border-radius: 0!important;
+  padding: 5px 10px!important;
+}
+
+.anchor{
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* authentication pages */
+
+.authentication{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #034839;
+}
+
+.authentication-form{
+  width: 400px;
+}
+
+.authentication .card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  max-width: max-content;
+  padding: 7px 15px;
+  margin-left: -38px;
+  border-bottom-left-radius: 10px;
+}
